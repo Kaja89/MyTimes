@@ -1,3 +1,8 @@
+container {
+  width: 100%;
+  display: flex;
+}
+
 header {
   display: flex;
   width: 100%;
@@ -15,6 +20,8 @@ header {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
+  flex-grow: 1;
+  border: 1px black solid;
 
 }
 
@@ -30,6 +37,7 @@ align-items: center;
 justify-content: flex-end;
 flex-wrap: wrap;
 padding-right: 30px;
+flex-grow: 1;
 }
 
 span {
@@ -39,6 +47,30 @@ display: inline-block;
 
 span a {
   color: black;
+}
 
+div{
+  border: 1px solid black;
+}
 
+#content {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.column.large {
+  width: 630px;
+
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
