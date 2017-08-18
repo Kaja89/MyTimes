@@ -6,7 +6,7 @@ body {
 #container {
   width: 100%;
   display: flex;
-  /*position: relative;*/
+  position: relative;
   margin-top: 0;
   z-index: 3;
 }
@@ -55,6 +55,12 @@ nav {
   flex-grow: 1;
 }
 
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 span {
   margin: 0 15px;
   display: inline-block;
@@ -93,4 +99,42 @@ div{
 
 .column.small {
   width: 240px;
+}
+
+.img span {
+  font-size: 40px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+ .img h1 {
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.img {
+  display: flex;
+  height: 300px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mother {
+  background-image: url(../../resources/images/img-story-main.png);
+  background-repeat: no-repeat;
+}
+
+.earth {
+background-image: url("../../resources/images/img-story-2.png");
+}
+
+.research {
+  background-image: url("../../resources/images/img-story-3.png");
+}
+
+.cats {
+  background-image: url("../../resources/images/img-story-1.png");
 }
