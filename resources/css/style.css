@@ -90,7 +90,9 @@ div{
 }
 .column.large {
   width: 630px;
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .column.medium {
@@ -113,6 +115,7 @@ div{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+  text-align: center;
 }
 
 .img {
@@ -129,12 +132,23 @@ div{
 
 .earth {
 background-image: url("../../resources/images/img-story-2.png");
+width: 300px;
 }
 
 .research {
   background-image: url("../../resources/images/img-story-3.png");
+  width: 300px;
 }
 
 .cats {
   background-image: url("../../resources/images/img-story-1.png");
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  width: 300px;
 }
