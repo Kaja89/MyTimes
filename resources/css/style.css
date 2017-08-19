@@ -101,6 +101,8 @@ div{
 
 .column.small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
 }
 
 .img span {
@@ -116,6 +118,7 @@ div{
   font-weight: bold;
   font-size: 30px;
   text-align: center;
+  margin-top: 0;
 }
 
 .img {
@@ -151,4 +154,29 @@ width: 300px;
 
 .story {
   width: 300px;
+}
+
+.bites {
+  justify-content: center;
+
+}
+
+.bites h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.bites span {
+  display: block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-right: 0;
+  margin-left: 0;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px;
 }
